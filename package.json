@@ -10,8 +10,14 @@
     "registry:build": "shadcn build"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.15",
     "@radix-ui/react-label": "^2.1.7",
     "@radix-ui/react-slot": "^1.2.3",
+    "@solana/kit": "^3.0.1",
+    "@solana/react": "^3.0.1",
+    "@solana/signers": "^3.0.1",
+    "@wallet-standard/core": "^1.1.1",
+    "@wallet-standard/react": "^1.0.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.487.0",

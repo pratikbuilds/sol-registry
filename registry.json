@@ -61,6 +61,32 @@
       ]
     },
     {
+      "name": "wallet",
+      "type": "registry:component",
+      "title": "Wallet Components",
+      "description": "Solana wallet connection components with Wallet Standard integration.",
+      "dependencies": ["@wallet-standard/react", "lucide-react"],
+      "registryDependencies": ["button", "dialog"],
+      "files": [
+        {
+          "path": "registry/new-york/blocks/wallet/ConnectWalletBtn.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/new-york/blocks/wallet/WalletContext.tsx",
+          "type": "registry:hook"
+        },
+        {
+          "path": "registry/new-york/blocks/wallet/WalletInfo.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/new-york/blocks/wallet/WalletListModal.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
       "name": "example-with-css",
       "type": "registry:component",
       "title": "Example with CSS",
