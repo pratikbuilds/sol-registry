@@ -1,7 +1,7 @@
 "use client";
 import { LogOut, Wallet } from "lucide-react";
 import { useWallet } from "./WalletContext";
-import { Button } from "../../ui/button";
+import { Button } from "@/registry/new-york/ui/button";
 
 export function WalletInfo() {
   const { account, wallet, isConnected, setConnectedWallet } = useWallet();

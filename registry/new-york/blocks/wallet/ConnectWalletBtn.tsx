@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useWallets } from "@wallet-standard/react";
 import { useWallet } from "./WalletContext";
 
-import { Button } from "../../ui/button";
+import { Button } from "@/registry/new-york/ui/button";
 import { WalletListModal } from "./WalletListModal";
 import { WalletInfo } from "./WalletInfo";
 
